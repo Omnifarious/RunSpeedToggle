@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "title": "Run Speed Toggle",
     "author": "Omnifarious",
-    "contact": "eric-factorio@omnifarious.org"
+    "contact": "eric-factorio@omnifarious.org",
     "homepage": "",
     "factorio_version": "0.16",
     "dependencies": ["base >= 0.16"],
