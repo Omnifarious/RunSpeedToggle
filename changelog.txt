@@ -1,0 +1,6 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 04. 09. 2018
+  Bugfixes:
+    - Added settings.lua file that had previously not been included in
+      the mod by accident.
