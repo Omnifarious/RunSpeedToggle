@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 02. 26. 2019
+  Features:
+    - Update for 0.17, fixes will be backported to 0.16 on 0.0.x versions.
+
 Version: 0.0.2
 Date: 04. 09. 2018
   Bugfixes:
