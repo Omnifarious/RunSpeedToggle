@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 30. 04. 2020
+  Features:
+    - Fix control prototype to no longer use long-deprecated
+      'script-only' consume mode.
+    - Change default binding for toggle key to F6 to avoid conflicting
+      with keys that are part of Factorio base.
+---------------------------------------------------------------------------------------------------
 Version: 0.2.0
 Date: 31. 01. 2020
   Features:
