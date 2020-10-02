@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 02. 10. 2020
+  Bugfixes:
+    - Make negative speeds work correctly.  This involved fixing a broken
+      floating point comparison function.
+---------------------------------------------------------------------------------------------------
 Version: 0.2.1
 Date: 30. 04. 2020
   Features:
