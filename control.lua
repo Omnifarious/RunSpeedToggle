@@ -40,8 +40,8 @@ local function xy_add(p1, p2)
 end
 
 local function approx_eq(v1, v2, errscale)
-   offset = v2 * errscale
-   return ((v1 >= (v2 - offset)) and (v1 <= (v2 + offset)))
+   offset = math.max(math.abs(v1 * errscale), math.abs(v2 * errscale))
+   return math.abs(v1 - v2) <= offset
 end
 
 local function on_hotkey(event)
