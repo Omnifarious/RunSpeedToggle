@@ -1,4 +1,21 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 02. 10. 2020
+  Changes:
+    - Backport changes and bugfixes from 0.2 (aka Factorio 0.18/1.0)
+      branch to 0.1 (aka Factorio 0.17).
+    - Fix control prototype to no longer use long-deprecated 'script-only'
+      consume mode. This may result in some behavior change if you have the
+      control key used for RunSpeedToggle also bound to other actions. The
+      deprecated 'script-only' mode still works in 0.17, but the change is
+      being backported anyway.
+    - Change default binding for toggle key to F6 to avoid conflicting
+      with keys that are part of Factorio base and to be consistent with the
+      0.18 version.
+  Bugfixes:
+    - Make negative speeds work correctly.  This involved fixing a broken
+      floating point comparison function.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.4
 Date: 26. 02. 2018
   Bugfixes:
